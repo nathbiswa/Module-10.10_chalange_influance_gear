@@ -23,6 +23,9 @@ a{
 li{
     list-style: none;
 }
+img{
+    max-width: 100%;
+}
 /* Header section */
 
 .main-nav{
@@ -35,17 +38,37 @@ li{
     gap: 20px;
 }
 .nav-logo a h1 {
-    font-size: 24px;
+    font-size: 1.75rem;
     font-weight: 700;
 }
 ul.menu-items li a {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     color: #3A3A3A;
 }
+/* Banner Section */
+.banner-left {
+    padding: 74px 133px 70px 0px;
+    width: 582px;
+    height: 270px;
+}
+.banner-left h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.banner-left p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #3A3A3A;
+}
 
-
-
-
-
+button.primary-btn {
+    padding: 10px 24px;
+    border-radius: 41px;
+    margin: 8px;
+    background-color: #E02C6D;
+    border: navajowhite;
+    color: #FFFFFF;
+}
 
